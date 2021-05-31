@@ -143,58 +143,24 @@ td{
     display:none;
 }
 
-
-
-
-/* Projects.html */
-/* Projects.html */
-/* Projects.html */
-/* Projects.html */
-/* Projects.html */
-/* Projects.html */
-
-.desktop_form{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    background-color: white;
-    height:100vh;
+.Projects_stucture {
+    font-size: 2rem;
 }
 
-.desktop_form div {
+.btn-default {
+    background-color: #0E76A8 !important;
+    color:white !important;
+    margin-top: 1rem;
+    
+}
 
-    padding: 2rem;
+.submit {
+    color: #0E76A8;
+    font-size: 4.5rem;
    
 }
 
 
-.mobile_form {
-    display:flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    padding:1rem;
-    background-color: white;
-    height:100vh;
-}
-
-
-.Projects_stucture {
-    display:none;
-}
-
-input[placeholder] 
-  { 
-    text-overflow: ellipsis; 
-  }
-
-
-input {
-    padding:1rem;
-    padding-right: 5rem;
-}
 
 
 
@@ -213,9 +179,27 @@ input {
        
     }
 
-    .Projects_stucture_mobile {
-        display:none
+    input {
+        padding:2rem !important;
+        font-size: 3rem !important;
     }
+    
+    label {
+        font-size: 3rem !important;
+    }
+    
+    .checkbox {
+        margin-top: 10px !important;
+    }
+    
+    .btn-default {
+        background-color: #0E76A8 !important;
+        color:white !important;
+        margin-top: 1rem;
+        font-size: 2rem !important;
+    }
+
+    
 }
 
 
@@ -226,9 +210,7 @@ input {
        
     }
 
-    .Projects_stucture {
-        display:block;
-    }
+   
 
     
 }

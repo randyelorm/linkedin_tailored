@@ -12,55 +12,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body class ="Project_body">
 
   
 <section class = "container Projects_stucture">
-  <form action="" class = "desktop_form">
 
-          <h1>SUBMIT YOUR PROJECT</h1> 
+  <form>
+    <h1 class ="text-center submit">Sumbit A Project</h1>
+    <div class="form-group">
+      <label for="project_name">Project Name</label>
+      <input type="text" class="form-control" id="project_name"
+       placeholder="Enter the Name of your project. e.g. Delivery App">
+    </div>
 
-          <div>
-              <label for="project_name">Project Title</label>
-              <input type="text" maxlength="4" size = 50 id="project_name" placeholder="Enter Your Project Title e.g Delivery App">
-        </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input type="text" class="form-control" id="description"
+       placeholder="Describe your Project">
+    </div>
 
-          <div>
-              <label for="description">Description</label>
-              <input type="text" size = 50  id = "description" placeholder="Describe the Project">
-        </div>
+    <div class="form-group">
+      <label for="languages">Languages & Technology Used</label>
+      <input type="search" class="form-control" id="languages"
+       placeholder="Search">
+       <button type="submit" class="btn btn-default">Select</button>
+    </div>
 
-        <div>
-              <label for="langs_used">Languages Used</label>
-              <input type="search" size = 30  id = "langs_used" placeholder="Search">
-              <button>Select</button>
-        </div>
+    <div class="form-group">
+      <label for="github_url">Git Hub Url</label>
+      <input type="text" class="form-control" id="github_url"
+       placeholder="Enter Github Url: eg https://www.github.com/randy/deliveryapp">
+    </div>
 
-
-        <div>
-          <label for="git_hub"> Github URL</label>
-          <input type="text" size = 50  id = "git_hub" placeholder="Enter Github Url e.g https://www.github.com/randy/deliveryapp">
-        </div>
-
-
-        <div>
-          <label for="demo_url"> Demo URL</label>
-          <input type="text"  size = 50 id = "demo_url" placeholder="Enter hosted demo Url e.g https://deliveryapp.netlify.com">
-        </div>
-
-        <div>
-
-          <label for="post_linkedin">Post On LinkedIn</label>
-          <input type="checkbox" id = "post_linkedin">
-        </div>
-
-    <button>Submit</button>
-
-
-
-
+    <div class="form-group">
+      <label for="demo_url">Demo Url</label>
+      <input type="text" class="form-control" id="demo_url"
+      placeholder="Enter Github Url: eg https://deliveryapp.netlify.com">
+    </div>
+    
+    
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" class ="checkbox"> Post on Linkedin
+      </label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
   </form>
 
+  <br>
+
+
+  <a href="index.html"> <button type="submit" class="btn btn-default">Go Back</button> </a>
+ 
 </section>
 
 
@@ -68,58 +71,8 @@
 
 
 <!-- for mobile -->
-<section class = "container Projects_stucture_mobile">
-  <form class = "mobile_form" action="">
-
-          <h1>SUBMIT YOUR PROJECT</h1> 
-
-          <div>
-              <label for="project_name">Project Title</label>
-              <input type="text"  size = 40 id="project_name" placeholder="Enter Your Project Title e.g Delivery App">
-        </div>
-           <br>
-          <div>
-              <label for="description">Description</label>
-              <input type="text" size = 40  id = "description" placeholder="Describe the Project">
-        </div>
-
-        <br>
-
-        <div>
-              <label for="langs_used">Languages Used</label> <br>
-              <input type="search" size = 30  id = "langs_used" placeholder="Search">
-              <button>Select</button>
-        </div>
-
-        <br>
-
-        <div>
-          <label for="git_hub"> Github URL</label>
-          <input type="text" size = 30  id = "git_hub" placeholder="Enter Github Url e.g https://www.github.com/randy/deliveryapp">
-        </div>
-
-          <br>
-
-        <div>
-          <label for="demo_url"> Demo URL</label>
-          <input type="text"  size = 30 id = "demo_url" placeholder="Enter hosted demo Url e.g https://deliveryapp.netlify.com">
-        </div>
-
-          <br>
-        <div>
-
-          <label for="post_linkedin">Post On LinkedIn</label>
-          <input type="checkbox" id = "post_linkedin">
-        </div>
-
-    <button>Submit</button>
 
 
-
-
-  </form>
-  
-</section>
 
 
 
