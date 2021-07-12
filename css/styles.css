@@ -2,6 +2,7 @@
 body {
     
     font-family: 'Arimo', sans-serif;
+    background-color: #EBECF0 !important;
 }
 
 main {
@@ -99,10 +100,14 @@ height:15vh !important;
 
 
 
-.connections, .followers, .linkVo {
+.connections, .followers  {
     font-weight: bold;
 }
 
+.linkVo_completed {
+    font-weight: bold;
+    font-size: 2rem;
+}
 
 
 
@@ -316,7 +321,7 @@ video  {
 }
 
 .developer_course_box {
-    display:none;
+    display:block;
 }
 
 
@@ -326,6 +331,23 @@ video  {
 
 
 /* linkVo  */
+
+.linko_section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.booked_gigs {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.booked_gigs a {
+  margin: 0.3rem;
+  font-size: 2rem !important;
+}
 
 .linkvo_box {
 background-color: white;
@@ -377,6 +399,17 @@ box-shadow: 0 0 1em rgba(0,0,0,0.2);
 /* LinkVo Booked  */
 /* LinkVo Booked  */
 
+.booked_heading {
+    background-color:white;
+    padding:3rem;
+    text-align: center;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+}
+
+.booked_heading > h1 {
+    color:#0066C2;
+}
+
 
 .linkVo_Booked_imgs {
     width:20%;
@@ -405,14 +438,67 @@ li {
     list-style: none;
 }
 
+.dropdown-menu {
+    padding:0.5rem !important;
+}
+
+
+.modal_bodie > p{
+    font-weight: bold !important;
+}
+
+.booked_box {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+
+
+.booked_title {
+    display: flex;
+} 
+
+.linkVo_Booked_imgs2  {
+   
+    height:100px !important;
+    width: 100px !important;
+    border-radius: 50%;
+}
+
+
+
+
+/* linkvo suggestions */
+
+.linko_suggestions_mob {
+    margin-top: 1rem;
+    display:block;
+    background-color: white;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    padding:1rem;
+}
 
 
 
 
 
+.linko_suggestions_desktop{
+    display:none;
+}
+
+.linkVo_sugges_alpha {
+    display:flex;
+    flex-direction: column;
+    
+}
 
 
-@media screen and (min-width:950px) {
+
+
+
+@media screen and (min-width:768px){
 
     body {
         background-color: #EBECF0 !important;
@@ -469,11 +555,16 @@ li {
     }
 
     .tech_logo {
-        width:20%;
+        max-width:20%;
     }
 
     .descrip_project_br {
         display:none;
+    }
+
+
+    .projects_title {
+        font-size: 2rem !important;
     }
     
 
@@ -486,10 +577,19 @@ li {
        
     }
 
+    .linko_suggestions_desktop{
+        display:block;
+    }
+
+    .linko_suggestions_mob{
+        display:none !important;
+    }
+
     .linkVo_sugges_alpha {
         display:block;
         
     }
+
     .developer_course_box {
         display:block;
     }
@@ -529,10 +629,21 @@ li {
     }
 
 
+    .linko_suggestions_mob {
+        display:block;
+    }
+    
+
 
     /* LinkVo Booked*/
 
-  
+    .booked_box {
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0 0 1em rgba(0,0,0,0.2);
+        border-radius: 10px;
+        
+    }
 
     .linkVo_Booked_imgs {
         width:5%;
@@ -540,12 +651,53 @@ li {
     
     }
 
-    .details_nd_chnge_btns {
-        display: flex;
-        align-items: flex-start;
+    
+    .img_nd_booked {
+    display:inline;
+    width: 70%;
+   
+   } 
+
+    .img_descrip_btns {
+        display:flex;
     }
 
-   
+    .details_btn{
+        margin-top: 0px;
+        font-size: 1.5rem !important;
+    }
+
+    .change_btn {
+        margin-top: 0px;
+        font-size: 1.5rem !important;
+    }
+
+    .reschedule_btn {
+        font-size: 1.5rem !important;
+    }
+
+   .cancel_aptment_btn {
+    font-size: 1.5rem !important;
+   }
+
+   .modal-title {
+    font-size: 2.5rem !important;
+   }
+
+   .control-label {
+    font-size: 1.5rem !important;
+   }
+
+   .linkVo_Booked_imgs2  {
+    width: 20%;
+    border-radius: 50%;
+  }
+
+
+  .booked_gigs {
+      display: flex;
+      flex-direction: column;
+  }
 
     
 
@@ -555,29 +707,13 @@ li {
 }
 
 
-@media screen and (min-width:768px) {
+
+
+
+
+
   
-    .cover_nd_propic {
-        margin-bottom: 4rem;
-       
-    }
-
-   
-
-    
-}
 
 
 
 
-@media screen and (min-width:1024px) {
-  
-    .cover_nd_propic {
-        margin-bottom: 4rem;
-       
-    }
-
-   
-
-    
-}
