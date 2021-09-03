@@ -495,7 +495,26 @@ li {
 }
 
 
+/* Set Up Linkvo */
+/* Set Up Linkvo */
+/* Set Up Linkvo */
+/* Set Up Linkvo */
+/* Set Up Linkvo */
+/* Set Up Linkvo */
+/* Set Up Linkvo */
 
+
+
+.set-up-backgrounds {
+    background-color:white;
+    padding:3rem;
+    text-align: center;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+}
+
+.setup-rate-input {
+    font-size: 2rem !important;
+}
 
 
 @media screen and (min-width:768px){
